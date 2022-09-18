@@ -1,0 +1,120 @@
+body {
+  position: relative;
+  background-color: #0a0a14;
+  font-size: 30px;
+}
+nav.group {
+  font-size: 30px;
+  color: whitesmoke;
+  display: flex;
+}
+nav.group span {
+  color: rgba(200, 200, 200, 0.7);
+  font-size: 40px;
+  line-height: 50px;
+}
+nav.group div {
+  flex-grow: 1;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 50px;
+  width: 200px;
+  height: 50px;
+}
+nav.group div:hover {
+  background-color: #f9671e;
+}
+div.detail {
+  height: 700px;
+  color: #f4f4f4;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+div.detail div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+div#btnlog {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 45px;
+  margin: 50px auto;
+  background-color: #f9671e;
+  border: 3px solid #f9671e;
+  font-weight: bolder;
+}
+div#btnlog:hover {
+  background-color: #0a0a14;
+  color: #f4f4f4;
+}
+div#btnlog:hover:active {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #f9671e;
+}
+div#login {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  background-color: #4c4c4c;
+  border: 8px solid #f9671e;
+  border-radius: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+div#login span#none {
+  font-weight: bolder;
+  color: #B7B7B7;
+  position: absolute;
+  top: 15px;
+  left: 650px;
+}
+div#login button {
+  position: absolute;
+  margin: 10px 40px;
+  top: 280px;
+  left: 180px;
+  width: 250px;
+  height: 30px;
+  background-color: #f9671e;
+  border: none;
+  border-radius: 10px;
+}
+div#login div#form {
+  color: #f4f4f4;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+div#login div#form span:nth-child(2n-1) {
+  display: block;
+  float: left;
+  width: 120px;
+}
+div#login div#form span:nth-child(2n) {
+  font-size: 18px;
+}
+div#login div#form input[type="text"],
+div#login div#form input[type="password"] {
+  margin: 0px 0px 10px;
+  width: 200px;
+  height: 25px;
+  border: none;
+}
+div#login div#form input[type="submit"] {
+  margin: 10px 40px;
+  width: 250px;
+  height: 30px;
+  background-color: #f9671e;
+  border: none;
+  border-radius: 10px;
+}
+.divkill {
+  display: none;
+}
+/*# sourceMappingURL=./style.css.map */
