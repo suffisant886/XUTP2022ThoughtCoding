@@ -28,18 +28,22 @@ nav.group div:hover {
   background-color: #f9671e;
 }
 div.detail {
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 700px;
   color: #f4f4f4;
   background-color: rgba(0, 0, 0, 0.2);
   position: relative;
+  line-height: 50px;
 }
 div.detail div {
+  width: 900px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+div.detail div p > i {
+  font-size: 36px;
+  font-weight: bold;
 }
 div#btnlog {
   width: 200px;
@@ -141,7 +145,14 @@ div#login .right div.jionIn a {
 div#login .right div.jionIn a:hover {
   opacity: 0.8;
 }
+div#login .right2 input[name] {
+  padding: 5px 10px;
+  margin: 8px 30px;
+}
 .divkill {
   display: none;
+}
+.divlife {
+  display: block;
 }
 /*# sourceMappingURL=./style.css.map */
